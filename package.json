@@ -1,5 +1,5 @@
 {
-  "name": "coin-colors-ex",
+  "name": "coin-flipper",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
