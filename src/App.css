@@ -1,0 +1,69 @@
+html {
+  background-color: #324631;
+  color: #e3e0cd;
+}
+
+.App {
+  text-align: center;
+  font-family: "Almendra", serif;
+}
+
+.Coin img {
+  width: 200px;
+  height: 200px;
+}
+
+.flip {
+  animation-name: spin;
+  animation-duration: 1000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(720deg);
+  }
+}
+
+.CoinFlip h1 {
+  font-size: 2.75rem;
+  font-style: italic;
+  font-weight: 700;
+}
+
+.CoinFlip button {
+  margin: 0 2em;
+  font-size: 1.2rem;
+  font-family: inherit;
+  text-decoration: none;
+  transition: color 0.15s ease-in;
+  border-style: solid;
+  border-width: 1px;
+  border-width: 0.125rem;
+  background-color: #767366;
+  color: #e3e0cd;
+}
+
+.CoinFlip button:hover {
+  font-weight: 700;
+  cursor: pointer;
+  transition: color 0.15s ease-in;
+}
+
+.CoinFlip button:visited {
+  transition: color 0.15s ease-in;
+}
+.CoinFlip button:active {
+  transition: color 0.15s ease-in;
+}
+.CoinFlip button:focus {
+  transition: color 0.15s ease-in;
+  outline: 1px dotted currentColor;
+}
+.CoinFlip p {
+  font-size: 1.5rem;
+}
