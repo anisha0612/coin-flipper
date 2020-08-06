@@ -2,6 +2,10 @@
 
 This is a coin flipping web app using React.js
 
+
+![](coin-flip.gif)
+
+
 ## Available Scripts
 
 In the project directory, you can run:
